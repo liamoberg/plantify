@@ -125,6 +125,7 @@ tr:nth-child(even) {
 /*alla a samma font*/
 a {
 	font-family: 'Ruda', sans-serif;
+	color:#FFFFFA;
 }
 
 /*stylar link*/
