@@ -1,0 +1,151 @@
+/**/
+
+body {
+	padding:0;
+	margin:0;
+	height:100%;
+	width:100%;
+}
+
+/*Väljer färg för headern, sätter storlek och körde display flex för elementen inuti headern*/
+.header {
+	background-color:#84DCCF;
+	height:7em;
+	width:100%;
+	padding:0.1em;
+	display:flex;
+	justify-content: flex-start;
+	align-items:center;
+}
+
+/*Plantify texten...Byter färg på denna så inte andra h1 blir påverkade.*/
+.plant {
+	margin-top:2em;
+	color:#FFFFFA;
+}
+
+/*Sätter storleken på loggan*/
+.plantybild {
+	height:5em;
+	width:5em;
+}
+
+/*Sätter storleken, färg och flexbox för elementsen inuti. Padding 0.1 em för den gick inte längst ut på sidan av någon anledning.*/
+
+.section{
+	height:3em;
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+	align-items:center;
+	background-color:#0D5C63;
+	padding:0.1em;
+}
+
+/*Bredd på alla artiklar och height samt så att dom placeras i mitten av sidan.*/
+.article {
+	width:70%;
+	height: 50em;
+	margin:0 auto;
+	text-align:center;
+}
+
+/*Bredd och att det ska placeras i mitten, används på alla undersidor så dom placeras lika.*/
+.main {
+	width:70%;
+	margin:0 auto;
+}
+
+/*Centrerar alla h1 element och samma fontsize.*/
+.home{
+	text-align:center;
+	font-size:2em;
+}
+
+/*Mitten och width på formuläret*/
+.form {
+	width:10%;
+	margin:0 auto;
+}
+
+/*Byter font på formulärtextn, Email och Namn*/
+form {
+	font-family: 'Ruda', sans-serif;
+}
+
+/*Samma font på alla article*/
+article {
+	font-family: 'Armata', sans-serif;
+}
+
+/*Höjd och bredd på form boxen*/
+textarea {
+	width:20em;
+	height:10em;
+}
+
+/*Samma font på ala h1*/
+h1 {
+	font-family: 'Ruda', sans-serif;
+}
+
+/*Samma font på alla h2 och centrerar dom*/
+h2 {
+	text-align:center;
+	font-family: 'Ruda', sans-serif;
+}
+
+/*Samma font på alla h3 och lite padding så dom inte sitter ihop i en hög*/
+h3 {
+	padding:1em;
+	font-family: 'Ruda', sans-serif;
+}
+
+/*Stylar tabellen osv*/
+table {
+	border-collapse:collapse;
+	width:70%;
+	margin:0 auto;
+	margin-top:1em;
+	font-family: 'Armata', sans-serif;
+}
+
+td, th {
+	border: 0.0625em solid #dddddd;
+    text-align: left;
+    padding: 0.5em;
+}
+
+/*Varannan ska vara grå*/
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+/*alla a samma font*/
+a {
+	font-family: 'Ruda', sans-serif;
+}
+
+/*stylar link*/
+a:link {	
+	text-decoration: none;
+}
+
+/*Linkar man klickat på är fortf vita*/
+a:visited {
+	color:#FFFFFA;
+}
+
+/*Gjorde om li till fyrkanter*/
+ul {
+ list-style-type: square;
+ list-style-position: outside;
+ list-style-image: none;
+}
+
+/*alla li har samma font*/
+li {
+	font-family: 'Armata', sans-serif;
+}
+
