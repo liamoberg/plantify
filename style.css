@@ -37,7 +37,7 @@ body {
 	width:100%;
 	display:flex;
 	flex-direction:row;
-	justify-content: center;
+	justify-content: space-around;
 	align-items:center;
 	background-color:#0D5C63;
 	padding:0.1em;
@@ -60,7 +60,7 @@ body {
 /*Centrerar alla h1 element och samma fontsize.*/
 .home{
 	text-align:center;
-	font-size:2em;
+/*	font-size:2em;*/
 }
 
 /*Mitten och width på formuläret*/
@@ -97,10 +97,16 @@ h2 {
 }
 
 /*Samma font på alla h3 och lite padding så dom inte sitter ihop i en hög*/
-h3 {
-	padding:1em;
+.meny {
 	font-family: 'Ruda', sans-serif;
 }
+
+.contact {
+	text-align:center;
+	font-family: 'Ruda', sans-serif;
+}
+
+
 
 /*Stylar tabellen osv*/
 table {
@@ -125,6 +131,7 @@ tr:nth-child(even) {
 /*alla a samma font*/
 a {
 	font-family: 'Ruda', sans-serif;
+	color:#FFFFFA;
 }
 
 /*stylar link*/
