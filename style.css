@@ -43,11 +43,17 @@ body {
 	padding:0.1em;
 }
 
+@media only screen and (max-width:500px){
+	.meny {
+		font-size:75%;
+	}
+}
+
 /*Bredd på alla artiklar och height samt så att dom placeras i mitten av sidan.*/
 .article {
 	width:70%;
-	height: 50em;
 	margin:0 auto;
+	margin-bottom:2em;
 	text-align:center;
 }
 
@@ -67,6 +73,15 @@ body {
 .form {
 	width:10%;
 	margin:0 auto;
+}
+
+#containerlol
+{
+	display:flex;
+	justify-content: center;
+}
+
+#snus {
 }
 
 /*Byter font på formulärtextn, Email och Namn*/
